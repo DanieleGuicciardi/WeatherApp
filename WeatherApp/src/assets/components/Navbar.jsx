@@ -36,7 +36,7 @@ const WeatherNavbar = () => {
               onChange={(e) => setCity(e.target.value)}
             />
             <Button variant="light" type="submit">
-              Cerca
+              Search
             </Button>
           </Form>
         </Navbar.Collapse>
