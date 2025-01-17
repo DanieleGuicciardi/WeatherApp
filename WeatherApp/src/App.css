@@ -19,3 +19,7 @@ img, video {
   max-width: 100%;
   display: block;
 }
+
+.weatherNavbar {
+  background: linear-gradient(150deg, #007bff, #87cefa);
+}

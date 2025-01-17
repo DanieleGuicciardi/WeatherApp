@@ -3,18 +3,18 @@ import { Navbar, Nav, Container, Form, FormControl, Button } from "react-bootstr
 import { useNavigate } from "react-router-dom";
 
 const WeatherNavbar = () => {
-  const [city, setCity] = useState(""); // Stato per il nome della città
-  const navigate = useNavigate(); // Per navigare tra le pagine
+  const [city, setCity] = useState("");
+  const navigate = useNavigate(); 
 
   const handleSearch = (e) => {
     e.preventDefault();
     if (city.trim()) {
-      navigate(`/weather/${city}`); // Reindirizza alla pagina della città
+      navigate(`/weather/${city}`); 
     }
   };
 
   return (
-    <Navbar bg="primary" variant="dark" expand="lg">
+    <Navbar className="weatherNavbar" variant="dark" expand="lg">
       <Container>
         <Navbar.Brand href="/">WeatherApp</Navbar.Brand>
 

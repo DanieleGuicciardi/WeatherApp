@@ -14,6 +14,7 @@
   width: 500px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   text-align: center;
+  background: linear-gradient(200deg, #007bff, #87cefaa9);
 }
 
 .title {
@@ -31,6 +32,7 @@
   padding: 15px;
   margin-bottom: 20px;
   gap: 10px;
+  background: linear-gradient(200deg, rgb(241, 241, 241), rgb(168, 168, 168)) !important;
 }
 
 .icon {
