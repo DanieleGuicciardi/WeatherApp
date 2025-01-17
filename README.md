@@ -8,6 +8,7 @@ WeatherApp is a web application that allows users to view weather conditions for
 - **React Router**: For navigation between application pages.
 - **Bootstrap**: For responsive design and pre-styled components.
 - **OpenWeather API**: To fetch real-time weather data.
+- **LeafLet**: To add a world map in the homepage
 
 ## Main Features
 
