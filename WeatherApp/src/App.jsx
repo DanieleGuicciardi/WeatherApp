@@ -7,6 +7,7 @@ import WeatherFooter from './assets/components/Footer'
 import CitiesMeteo from './assets/components/HomeMain'
 import CityWeather from './assets/components/CityWeather'
 import Privacy from './assets/components/Privacy';
+import UnderDevelopment from './assets/components/UnderDevelopment';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/" element={<CitiesMeteo />}/>
         <Route path="/weather/:city" element={<CityWeather />} />
         <Route path="/Privacy" element={<Privacy />} />
+        <Route path="/UnderDevelopment" element={<UnderDevelopment />} />
       </Routes>
 
       <WeatherFooter/>

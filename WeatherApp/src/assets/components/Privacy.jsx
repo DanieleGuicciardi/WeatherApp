@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 const Privacy = () => {
-  return (
+  return (                      /* Copiata da un sito 😂 */
     <Container className="my-5">
       <Row>
         <Col>

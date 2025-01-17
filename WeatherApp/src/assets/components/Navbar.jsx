@@ -22,8 +22,8 @@ const WeatherNavbar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="#forecast">Previsioni</Nav.Link>
-            <Nav.Link href="#map">Mappa</Nav.Link>
+            <Nav.Link href="UnderDevelopment">Forecasts</Nav.Link>
+            <Nav.Link href="UnderDevelopment">Map</Nav.Link>
           </Nav>
 
           <Form className="d-flex" onSubmit={handleSearch}>
