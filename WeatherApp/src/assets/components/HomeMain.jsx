@@ -8,7 +8,7 @@ import HomeMainBottom from './HomeMainBottom';
 const CitiesMeteo = () => {    //codice preso dalla documentazione di leaflet
 
   useEffect(() => {
-    const map = L.map("map").setView([41.9028, 12.4964], 5); // Ho scelto Roma per mancanza di tempo ma avrei potuto prendere la lat e la longitudine dal click di una card
+    const map = L.map("map").setView([41.9028, 12.4964], 5); // Ho scelto Roma per mancanza di tempo ma avrei potuto prendere la lat e la lon dal click di una card (forse)
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
     }).addTo(map);
