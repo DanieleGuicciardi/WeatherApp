@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import "../styles/cityWeather.css"; // Import del file CSS
+import "../styles/cityWeather.css"; 
 
 const CityWeather = () => {
   const { city } = useParams();
@@ -41,7 +41,6 @@ const CityWeather = () => {
 
   const { name, main, weather, wind, timezone, visibility } = weatherData;
 
-  //queste due funzioni le ho reperite online
   const getLocalTime = () => {
     const date = new Date();
     const utcTime = date.getTime() + date.getTimezoneOffset() * 60000;
@@ -61,14 +60,12 @@ const CityWeather = () => {
       <div className="mainContainer">
         <h1 className="title">Weather in {name}</h1>
         <div className="card">
-          {/* Icona meteo */}
           <img
             src={`https://openweathermap.org/img/wn/${weather[0].icon}@2x.png`}
             alt={weather[0].description}
             className="icon"
           />
 
-          {/* Informazioni sul meteo */}
           <div>
             <p className="temp">{main.temp}°C</p>
             <p className="description">
@@ -77,7 +74,6 @@ const CityWeather = () => {
           </div>
         </div>
 
-        {/* Dettagli extra */}
         <div className="details">
           <p><strong>Local Time:</strong> {getLocalTime()}</p>
           <p><strong>Min Temp:</strong> {main.temp_min}°C</p>
