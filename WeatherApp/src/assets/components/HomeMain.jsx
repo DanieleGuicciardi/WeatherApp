@@ -1,5 +1,7 @@
 import React from "react";
+
 import WeatherCard from "./cardCities";
+import HomeMainBottom from './HomeMainBottom'
 
 const CitiesMeteo = () => {
   return(
@@ -12,6 +14,7 @@ const CitiesMeteo = () => {
         <WeatherCard city="London"/>
         <WeatherCard city="Tokyo"/>
 
+        <HomeMainBottom/>
         
       </div>
     </>
