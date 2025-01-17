@@ -1,6 +1,11 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates two main functionalities:
+
+1. **React Components**: Modular and reusable UI elements built with React, enabling dynamic and interactive web pages.
+2. **Vite**: A fast development server and build tool that ensures lightning-fast HMR (Hot Module Replacement) and optimized builds for production.
+
+---
 
 Currently, two official plugins are available:
 
