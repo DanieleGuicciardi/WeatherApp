@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 
-import WeatherCard from "./cardCities";
+import WeatherCard from "./CardCities";
 import HomeMainBottom from './HomeMainBottom';
 
 const CitiesMeteo = () => {    //codice preso dalla documentazione di leaflet
