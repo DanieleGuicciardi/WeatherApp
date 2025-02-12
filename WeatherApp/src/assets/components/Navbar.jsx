@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Navbar, Nav, Container, Form, FormControl, Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const WeatherNavbar = () => {
   const [city, setCity] = useState("");
